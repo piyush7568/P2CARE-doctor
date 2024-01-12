@@ -44,7 +44,7 @@ const MainLayout = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="my-patients">
+                    <Link to="my-patient">
                       <i className="fas fa-user-injured"></i>
                       <span>My Patients</span>
                     </Link>
