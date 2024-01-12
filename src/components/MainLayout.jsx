@@ -5,6 +5,9 @@ import doc from "../assets/img/doctors/doctor-thumb-02.jpg";
 const MainLayout = () => {
   //   const navigate = useNavigate();
   return (
+    <div className="container d-flex " style={{width:'100vw'}}>
+
+    
     <div className="main-wrapper">
       <div className="container">
         <div className="row">
@@ -35,7 +38,7 @@ const MainLayout = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="appointments">
+                    <Link to="appointment">
                       <i className="fas fa-calendar-check"></i>
                       <span>Appointments</span>
                     </Link>
@@ -71,6 +74,9 @@ const MainLayout = () => {
                     </Link>
                   </li>
                   <li>
+             
+             
+             
                     <Link to="reviews">
                       <i className="fas fa-star"></i>
                       <span>Reviews</span>
@@ -113,7 +119,13 @@ const MainLayout = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
+      </div>
+
+
+
+<Outlet/>
+
+
     </div>
   );
 };
