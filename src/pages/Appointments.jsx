@@ -40,11 +40,11 @@ const Appointments = () => {
               {/* <!-- Appointment List --> */}
               <div className="appointment-list">
                 <div className="profile-info-widget">
-                  <Link to="/patient-profile" className="booking-doc-img">
+                  <Link to="patient-profile" className="booking-doc-img">
                     <img src="/src/assets/img/patients/patient10.jpg" alt="User Image"/>
                   </Link>
                   <div className="profile-det-info">
-                    <h3><Link to="/patient-profile">Robert Rhodes</Link></h3>
+                    <h3><Link to="patient-profile">Robert Rhodes</Link></h3>
                     <div className="patient-details">
                       <h5><i className="far fa-clock"></i> 4 Nov 2023, 11.00 AM</h5>
                       <h5><i className="fas fa-map-marker-alt"></i> California, United States</h5>
@@ -70,11 +70,11 @@ const Appointments = () => {
               {/* <!-- Appointment List --> */}
               <div className="appointment-list">
                 <div className="profile-info-widget">
-                  <Link to="/patient-profile" className="booking-doc-img">
+                  <Link to="patient-profile" className="booking-doc-img">
                     <img src="/src/assets/img/patients/patient11.jpg" alt="User Image"/>
                   </Link>
                   <div className="profile-det-info">
-                    <h3><Link to="/patient-profile">Harry Williams</Link></h3>
+                    <h3><Link to="patient-profile">Harry Williams</Link></h3>
                     <div className="patient-details">
                       <h5><i className="far fa-clock"></i> 3 Nov 2023, 6.00 PM</h5>
                       <h5><i className="fas fa-map-marker-alt"></i> Colorado, United States</h5>
